@@ -21,7 +21,7 @@ class LinkedList:
         self.length += 1
         return True
 
-    # FIXED: Correct indentation of has_loop
+
     def has_loop(self):
         slow = self.head
         fast = self.head
